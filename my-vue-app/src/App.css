@@ -20,7 +20,12 @@ html, body {
     flex: 1;
     padding: 1rem;
   }
-  
+  .el-header {
+    background: #333;
+  }
+  .el-aside {
+    background-color: #545c64;
+  }
   .el-footer {
     background: #333;
     color: #fff;

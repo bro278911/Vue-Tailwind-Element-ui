@@ -7,7 +7,7 @@
   
   <script>
   import MyForm from '../components/MyForm.vue'
-  
+
   export default {
     name: 'HomeView',
     components: {

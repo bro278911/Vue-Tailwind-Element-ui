@@ -1,5 +1,10 @@
+import { IconName } from '@element-plus/icons-vue'
+
 export default {
     name: 'App',
+    components: {
+      IconName
+    },
     data() {
       return {
         activeIndex: '1'
@@ -11,6 +16,9 @@ export default {
       },
       handleSelect(index) {
         this.activeIndex = index;
-      }
+      },
+      goBack() {
+        
+      },
     }
   }
