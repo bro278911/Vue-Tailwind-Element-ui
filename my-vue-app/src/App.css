@@ -1,0 +1,30 @@
+/* 全局樣式 */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 使應用至少占滿視窗高度 */
+  }
+  
+  .el-container {
+    display: flex;
+    flex: 1;
+  }
+  
+  .el-main {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .el-footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+  }
